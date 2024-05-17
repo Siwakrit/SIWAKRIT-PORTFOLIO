@@ -1,6 +1,7 @@
 # SiwakritPortfolio
  
 Importance Step
+
 Step 1: Remove git: 
 rm -rf .git
 echo "# repositoryName"  README.md
