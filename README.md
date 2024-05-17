@@ -3,6 +3,7 @@
 Importance Step
 
 
+999
 Step 1: Remove git: 
 
 
@@ -24,7 +25,7 @@ Step 4: git commit -m "first commit"
 Step 5: git branch -M main
 
 
-Step 6: git remote add origin https://github.com/owner/repositoryNa...
+Step 6: git remote add origin https://github.com/Siwakrit/Siwakrit-Portfolio
 
 
 Step 7: git push -u origin main
