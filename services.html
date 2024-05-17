@@ -17,12 +17,12 @@
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Siwakrit Pattaveesin</title>
+    <title>John Roe</title>
 </head>
 
 <body>
     <!-- Website Layout -->
-    <ul class="website_container">
+    <div class="website_container">
 
         <!-- Global Menu -->
         <div id="global_menu_button_container">
@@ -43,8 +43,6 @@
 
         <!--x Global Menu x-->
 
-
-
         <!-- sidebar -->
         <div class="sidebar_container">
             <!-- Sidebar Image -->
@@ -57,12 +55,12 @@
             <!-- sidebar Content -->
             <div class="sidebar_content">
                 <!-- Long name can be applied so easily -->
-                <h1>Siwakrit Pattaveesin</h1>
+                <h1>John Roe</h1>
                 <p>Website Designer</p>
                 <!-- Social Medias -->
                 <div class="social_media">
                     <a href="https://facebook.com/alivecoder"><i class="fab fa-facebook"></i></a>
-                    <a href="https://github.com/Siwakrit"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/alivecoder0"><i class="fab fa-github"></i></a>
                     <a href="https://instagram.com/alivecoder"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
@@ -74,10 +72,10 @@
 
             <!-- Sidebar Navigation -->
             <ul class="sidebar_navigation" id="sidebar_navigation">
-                <li><a href="/" class="active">About</a></li>
+                <li><a href="/">About</a></li>
                 <li><a href="resume.html">Resume</a></li>
                 <li><a href="blogs.html">Blogs</a></li>
-                <li><a href="services.html">Services</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
 
             </ul>
@@ -85,42 +83,62 @@
         </div>
         <!-- content -->
         <div class="content_container">
-            <!-- About Page -->
-            <div class="about_page">
-                <h2 class="title">About <span>Me</span></h2>
+            <!-- Services Page -->
+            <div class="services_page">
+                <h2 class="title">My <span>Services</span></h2>
                 <hr class="line">
-                <div class="about_content">
-                    <p class="about_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam,
-                        porro dolore aut, explicabo eius voluptates vitae fuga, minus quaerat dolor. Autem id iure at
-                        illum in cumque, quasi esse. Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
-                        quaerat error tempora incidunt rem voluptas accusamus perspiciatis itaque exercitationem
-                        voluptatem?</p>
+                <!-- Services Row -->
+                <div class="services_container">
+                    <div class="services_box">
+                        <i class="fas fa-tablet-alt"></i>
+                        <h3 class="services_title">App Development</h3>
+                        <p class="services_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+                            nobis. Lorem ipsum dolor sit amet. </p>
+                    </div>
+                    <div class="services_box">
+                        <i class="fas fa-globe"></i>
+                        <h3 class="services_title">Website Development</h3>
+                        <p class="services_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+                            nobis. Lorem ipsum dolor sit amet. </p>
+                    </div>
                 </div>
-                <div class="about_profile">
-                    <ul class="left_profile">
-                        <li><span class="profile_title">Date of Birth</span><span>July 3, 2000</span></li>
-                        <li><span class="profile_title">Gender</span><span>Male</span></li>
-                        <li><span class="profile_title">Age</span><span>20 Years Old</span></li>
-                        <li><span class="profile_title">Maritial Status</span><span>Unmarried</span></li>
-                        <li><span class="profile_title">Nationality</span><span>Nepali</span></li>
-                        <li><span class="profile_title">Religion</span><span>Hindu</span></li>
-                    </ul>
 
-                    <ul class="right_profile">
-                        <li><span class="profile_title">Profession</span><span>Web Designer</span></li>
-                        <li><span class="profile_title">Address</span><span>Jhapa, Nepal</span></li>
-                        <li><span class="profile_title">Contact</span><span>+977 9800000000</span></li>
-                        <li><span class="profile_title">Email</span><span>email@gmail.com</span></li>
-                        <li><span class="profile_title">Website</span><span>mywebsite.com</span></li>
-                        <li><span class="profile_title">Freelance</span><span>Available</span></li>
-                    </ul>
+                <div class="services_container">
+                    <div class="services_box">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <h3 class="services_title">Web Design</h3>
+                        <p class="services_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+                            nobis. Lorem ipsum dolor sit amet. </p>
+                    </div>
+                    <div class="services_box">
+                        <i class="fas fa-drafting-compass"></i>
+                        <h3 class="services_title">Logo Desing</h3>
+                        <p class="services_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+                            nobis. Lorem ipsum dolor sit amet. </p>
+                    </div>
+                </div>
+
+                <div class="services_container">
+                    <div class="services_box">
+                        <i class="fab fa-figma"></i>
+                        <h3 class="services_title">Figma Desing</h3>
+                        <p class="services_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+                            nobis. Lorem ipsum dolor sit amet. </p>
+                    </div>
+                    <div class="services_box">
+                        <i class="fas fa-search-location"></i>
+                        <h3 class="services_title">SEO/Marketing</h3>
+                        <p class="services_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+                            nobis. Lorem ipsum dolor sit amet. </p>
+                    </div>
                 </div>
 
             </div>
         </div>
+    </div>
 
 
-        <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
