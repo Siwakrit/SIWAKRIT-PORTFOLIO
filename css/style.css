@@ -10,12 +10,17 @@
     font-family: "Poppins", sans-serif;
 }
 
+
+
+
 /* CSS Variables */
 :root {
     --brand-color: #e42242;
     --linear-back: Linear-gradient(180deg,
-            rgb(7, 6, 7) 0%,
-            rgb(255, 94, 0) 100%);
+            rgb(4, 1, 14) 0%,
+            rgb(248, 5, 5) 100%);
+        
+
 }
 
 a {
@@ -29,13 +34,20 @@ li {
 
 /* CSS in Body */
 body {
+    
     height: 100vh;
     width: 100vw;
-    background: var(--linear-back);
+    background: var(--linear-back); 
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url("/Siwakrit-Portfolio/img/profile1.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-color: rgb(10, 10, 10);
 }
+
 
 .website_container {
     width: 80%;
