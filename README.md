@@ -1,12 +1,4 @@
-# SiwakritPortfolio
- 
-Importance Step
 
-<<<<<<< HEAD
-
-999
-=======
->>>>>>> 15f43340763fa3752cef6f69ab5f23a137366fca
 Step 1: Remove git: 
 
 
@@ -44,10 +36,3 @@ Step 9: git commit -m”2nd try”
 
 
 Step 10: git push -u origin main
-
-<<<<<<< HEAD
-
-Bonus step: git status— Check how many files you can push to repo
-=======
-Bonus step: git status— Check how many files you can push to repo
->>>>>>> 15f43340763fa3752cef6f69ab5f23a137366fca
