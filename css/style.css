@@ -41,7 +41,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("/Siwakrit-Portfolio/img/profile1.jpg");
+    background-image: url("/img/profile1.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
