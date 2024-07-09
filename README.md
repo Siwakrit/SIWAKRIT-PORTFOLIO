@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Step 1: Remove git: 
 
@@ -36,3 +37,7 @@ Step 9: git commit -m”2nd try”
 
 
 Step 10: git push -u origin main
+=======
+# SIWAKRIT-PORTFOLIO
+ 
+>>>>>>> f3c0f6d779456bd01e13abd9f5e6a7e8e3bd17be
